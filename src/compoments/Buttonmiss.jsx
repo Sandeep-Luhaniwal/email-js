@@ -47,7 +47,7 @@ const Buttonmiss = () => {
                             <label className='text-white py-2'>Email</label>
                             <input required placeholder='Email' type="email" name="useremail" />
                             <label className='text-white py-2'>Message</label>
-                            <textarea className='resizetext' name="message" />
+                            <textarea required className='resizetext' name="message" />
                             <input className='mt-3' required placeholder='Message' type="submit" value="Send" />
                         </form>
                     </div>
